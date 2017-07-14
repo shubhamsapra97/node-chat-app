@@ -3,12 +3,6 @@ var socket = io();
 //Arrow functions not used in js as arrow fn  will work on chrome but wont work on other browsers or mobile.
 socket.on('connect',function(){
   console.log('Connected to Server');
-
-  socket.emit('createMessage' , {
-    from: 'sk@gmail.com',
-    text: 'Hello Bro!'
-  });
-
 });
 
 socket.on('disconnect' , function(){
