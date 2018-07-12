@@ -5,9 +5,7 @@ This project is a dynamic Node.js application. It is built using Express Framewo
 
  1. Node.js
  2. Express
- 3. MongoDB
- 4. Flash Messaging
- 5. Passport.js
+ 3. Socket.io
 
 # Requirements:
 
